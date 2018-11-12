@@ -1,0 +1,63 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+
+/**/*.js
+/**/*.js.map
+/**/*.d.ts
+
+# compiled output
+/dist/
+dist/
+/tmp
+/out-tsc
+/builds
+/builds/
+
+# dependencies
+/node_modules/
+node_modules/
+package-lock.json
+
+# IDEs and editors
+/.idea
+/.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# mock-producer
+/mock/mock-prod/data/elint
+/mock/mock-prod/data/gmti
+/mock/mock-prod/data/multi
+/mock/mock-prod/data/alert
+/mock/mock-prod/data/networks
+/mock/mock-prod/data/valid
+
+
+# redis
+shard/src/modules/redis/mode_modules

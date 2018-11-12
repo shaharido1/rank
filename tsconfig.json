@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "target": "es5",
+    "types": ["node"],
+    "moduleResolution": "node",
+    "noStrictGenericChecks": true,
+    "lib": [
+      "es2017",
+      "es5",
+      "es2015",
+      "dom"
+    ]
+  }
+}
